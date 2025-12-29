@@ -1,0 +1,98 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": ["Halo", "Hai", "Selamat pagi", "Selamat siang"],
+      "responses": ["Halo Simanila! Ada yang bisa saya bantu terkait layanan akademik?"]
+    },
+    {
+      "tag": "jadwal_kuliah",
+      "patterns": ["Kapan jadwal kuliah saya?", "Jadwal kuliah semester ini apa?"],
+      "responses": ["Silakan login ke Siakadu Unila untuk melihat jadwal kuliahmu ya! <br><a href='https://siakadu.unila.ac.id/gate/login' target='_blank'>Silahkan login ya ke Siakadu Unila!</a>."]
+    },
+    {
+      "tag": "nilai",
+      "patterns": ["Bagaimana cara lihat nilai?", "Cara melihat KHS gimana?"],
+      "responses": ["Kamu bisa melihat nilai melalui menu KHS di portal <br><a href='https://siakadu.unila.ac.id/gate/login' target='_blank'>SIAKADU UNILA</a>."]
+    },
+    {
+      "tag": "greeting",
+      "patterns": ["hai", "halo", "hello", "permisi", "pagi", "siang", "malam"],
+      "responses": ["Hai! Ada yang bisa aku bantu?", "Halo! Ada yang ingin kamu tanyakan tentang akademik?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["dadah", "bye", "sampai jumpa", "terima kasih ya"],
+      "responses": ["Sampai jumpa! Semoga harimu menyenangkan.", "Baik, sampai nanti ya!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["makasih", "thank you", "trimakasih"],
+      "responses": ["Sama-sama!", "Dengan senang hati!", "Kapan pun!"]
+    },
+    {
+      "tag": "jadwal_krs",
+      "patterns": ["kapan krs", "jadwal krs", "kapan pengisian krs", "mulai krs"],
+      "responses": ["Jadwal KRS biasanya dibuka awal semester. Coba cek <br><a href='https://siakadu.unila.ac.id/gate/login' target='_blank'>cek SIAKADU UNILA</a> untuk tanggal pastinya ya!"]
+    },
+    {
+      "tag": "cara_krs",
+      "patterns": ["cara krs", "gimana isi krs", "tutorial krs", "cara pengisian krs"],
+      "responses": ["Untuk mengisi KRS: 1) Login ke <a href='https://siakadu.unila.ac.id/gate/login' target='_blank'>Siakadu Unila</a>. 2) Pilih menu KRS. 3) Pilih mata kuliah. 4) Simpan dan submit."]
+    },
+    {
+      "tag": "vclass",
+      "patterns": ["apa itu VClass Unila?", "apa fungsi VClass Unila?"],
+      "responses": [
+        "VClass Unila adalah Virtual Class Universitas Lampung, sebuah platform pembelajaran daring berbasis Moodle untuk mendukung perkuliahan online. Mahasiswa dan dosen dapat mengakses materi, tugas, forum, dan aktivitas pembelajaran lainnya. Fungsi: Vclass Unila berfungsi sebagai media pembelajaran daring untuk berbagai kegiatan akademik, termasuk kuliah, diskusi, dan pengumpulan tugas.",
+        "Untuk LMS, gunakan akun portal mahasiswa kamu ya!"
+      ]
+    },
+    {
+      "tag": "vclass2",
+      "patterns": ["Bagaimana cara mengakses vlass", "Cara menggunakan vclass gimana"],
+      "responses": ["Kamu bisa mengakses VClass Unila dengan <br><a href='https://vclass.unila.ac.id/' target='_blank'>Link Ini</a>. Tutorial penggunaan Vclass dapat dilihat dibagian Info VClass"]
+    },
+    {
+      "tag": "kontak_tu",
+      "patterns": ["kontak tu", "hubungi tata usaha", "nomor tu"],
+      "responses": ["Kontak TU dapat dilihat di website fakultas ya! Jam layanan biasanya dari 08.00–15.00."]
+    },
+    {
+  "tag": "siakadu",
+  "patterns": [
+    "Apa itu siakadu?",
+    "Apa itu Siakad Unila?",
+    "Siakadu adalah"
+  ],
+  "responses": [
+    "Siakadu Unila (Sistem Informasi Akademik Universitas Lampung) adalah platform digital untuk mengelola kegiatan akademik mahasiswa dan dosen secara online, seperti pengisian KRS, melihat jadwal kuliah, nilai, absensi, hingga layanan administrasi lainnya. <br><a href='https://siakadu.unila.ac.id/gate/login' target='_blank'>Berikut Link Siakadu</a>."
+  ]
+},
+{
+  "tag": "pembayaran_ukt",
+  "patterns": [
+    "cara bayar ukt",
+    "bagaimana cara pembayaran ukt unila",
+    "pembayaran ukt unila",
+    "gimana bayar ukt",
+    "cara membayar ukt"
+  ],
+  "responses": [
+  "Langkah-langkah Umum Pembayaran UKT Unila:<br><br><b>1. Akses Sistem Unila</b><br>Masuk ke laman resmi Unila seperti https://sidakma.unila.ac.id atau laman registrasi terkait untuk mengisi data dan mendapatkan kode pembayaran atau nomor tagihan.<br><br><b>2. Periksa Jadwal Pembayaran</b><br>Pastikan pembayaran dilakukan sesuai periode yang ditentukan setiap semester.<br><br><b>3. Pilih Bank Mitra</b><br>- BNI: Untuk mahasiswa S1 Reguler (FH, FKIP, FT, FISIP, FP, FMIPA).<br>- BTN: Untuk mahasiswa S1-UML atau Jalur Mandiri.<br><br><b>4. Metode Pembayaran</b><br>- Mobile Banking BRI (BRImo): Menu Pendidikan/BRIVA → masukkan kode pembayaran → konfirmasi → PIN.<br>- Mobile Banking BNI: Transfer → Virtual Account Billing → masukkan nomor VA → konfirmasi.<br>- ATM / Teller / E-Channel: Gunakan nomor Virtual Account atau kode pembayaran dari Unila.<br><br><b>5. Simpan Bukti Pembayaran</b><br>Simpan struk ATM, bukti teller, atau notifikasi mobile banking sebagai bukti sah.<br><br><b>Jika Mengalami Kendala</b><br>- Belum ada kode pembayaran: Hubungi Bagian Keuangan atau Loket UKT Gedung Rektorat Unila Lantai 1, atau email pnbp.unila@gmail.com.<br>- Terlambat bayar: Ajukan melalui https://loket.unila.ac.id untuk proses pembayaran terlambat dan cek status."
+]
+},
+{
+  "tag": "siakadu2",
+  "patterns": [
+    "Bagaimana cara membuat akun siakadu",
+    "Bagaimana cara membuat akun di siakad unila?",
+    "tutorial membuat akun di siakadu"
+  ],
+  "responses": [
+    "Langkah membuat akun Siakadu Unila:<br><br><b>Registrasi Mahasiswa Baru:</b><br>1. Kunjungi https://registrasi.unila.ac.id<br>2. Ikuti proses registrasi online menggunakan Google Chrome.<br>3. Gunakan NPM dan tanggal lahir untuk pendaftaran akun SSO.<br><br><b>Login Pertama:</b><br>1. Buka https://siakadu.unila.ac.id<br>2. Username: NPM<br>3. Password awal: Tanggal lahir (YYYYMMDD)<br>4. Klik Masuk Aplikasi.<br><br><b>Lengkapi Biodata:</b><br>1. Masuk menu Profil/Data Mahasiswa.<br>2. Lengkapi data diri dan upload foto formal.<br>3. Ganti password melalui menu Ganti Kata Sandi.<br><br><b>Jika Kendala:</b><br>1. Gunakan fitur lupa password atau helpdesktik.unila.ac.id<br>2. Datang ke BAK Gedung Rektorat Unila pada jam kerja."
+  ]
+}
+
+  ]
+}
