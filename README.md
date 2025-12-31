@@ -122,8 +122,9 @@ Pastikan Anda telah menginstal:
 - "Halo, apa kabar?"
 - "Bagaimana cara melihat jadwal kuliah?"
 - "Gimana cara lihat nilai KHS?"
-- "Kapan registrasi semester depan?"
-- "Terima kasih"
+- "Bagaimana cara membyar UKT?"
+- "Apa itu Siakadu?"
+- "Apa itu Vclass?"
 
 ## 🔧 Kustomisasi
 
